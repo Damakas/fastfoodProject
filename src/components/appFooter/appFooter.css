@@ -1,0 +1,43 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 75px 0;
+}
+
+.footer_contacts {
+    display: flex;
+    gap: 125px;
+    padding-right: 210px;
+}
+
+.footer_logo {
+    text-align: left;
+}
+
+.footer_number p,
+.footer_social p {
+    font-size: 24px;
+}
+
+.footer_phone {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 5px
+}
+
+.footer_phone a {
+    text-decoration: none;
+}
+
+.footer_social {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_social_icons {
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
